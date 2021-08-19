@@ -11,7 +11,7 @@ const Checkbox = (props) => {
     color = "grey",
     onChangeValue,
   } = props || {};
-  const padding = Math.abs(size * 0.1);
+  const padding = Math.ceil(size * 0.1);
   return (
     <TouchableOpacity
       key={`checkbox`}

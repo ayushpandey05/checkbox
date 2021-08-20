@@ -9,6 +9,7 @@ const Checkbox = (props) => {
     shape,
     tickColor,
     color = "grey",
+    style,
     onChangeValue,
   } = props || {};
   const padding = Math.ceil(size * 0.1);
@@ -19,6 +20,7 @@ const Checkbox = (props) => {
         runFunction(onChangeValue, !value);
       }}
       style={{
+        ...style,
         width: size,
         height: size,
         padding,

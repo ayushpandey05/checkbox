@@ -1,7 +1,7 @@
 import React from "react";
-import { TouchableOpacity, Image } from "@hybrid/core-components";
-import { Tick } from "@hybrid/icons";
-import { runFunction } from "../../core-components/src/Utility";
+import { TouchableOpacity, Image } from "@react-easy-ui/core-components";
+import { Tick } from "@react-easy-ui/icons";
+import {runFunction} from '@react-easy-ui/utility-functions'
 const Checkbox = (props) => {
   const {
     size = 24,
